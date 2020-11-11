@@ -121,7 +121,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: d7dfffaad6388e042b28b0a070466027, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 4bc4f82465966af4e8fccf6abf69ada1, type: 2}
 --- !u!1 &28895905
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +697,8 @@ MonoBehaviour:
   agentPrefab: {fileID: 5631278990405910066, guid: 56f77a4dd20f2c8429126acdc1c44436,
     type: 3}
   CREATE_CHASE_SCENE: 1
+  CREATE_LEADER_FOLLOW_SCENE: 0
+  CREATE_CROWDFOLLOW_SCENE: 0
   chaserLayer:
     serializedVersion: 2
     m_Bits: 512

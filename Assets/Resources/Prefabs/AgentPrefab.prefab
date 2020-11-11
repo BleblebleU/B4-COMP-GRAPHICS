@@ -142,9 +142,21 @@ MonoBehaviour:
   deadlockLayerMask:
     serializedVersion: 2
     m_Bits: 257
-  WALL_HUGGER: 0
+  wallHugger: 0
   EVADER: 0
   CHASER: 0
+  FOLLOWER: 0
+  LEADER: 0
+  leaderAgent: {fileID: 0}
+  goalForce: {x: 0, y: 0, z: 0}
+  chaserLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  evaderLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  cohessive: 0
+  cohessiveness: 0.1
 --- !u!54 &928107956113291040
 Rigidbody:
   m_ObjectHideFlags: 0

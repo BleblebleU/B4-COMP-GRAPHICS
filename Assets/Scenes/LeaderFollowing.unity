@@ -121,7 +121,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: d7dfffaad6388e042b28b0a070466027, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 0d5715f6fdc6f3e4ebea1937fb606920, type: 2}
 --- !u!1 &28895905
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +698,7 @@ MonoBehaviour:
     type: 3}
   CREATE_CHASE_SCENE: 0
   CREATE_LEADER_FOLLOW_SCENE: 1
+  CREATE_CROWDFOLLOW_SCENE: 0
   chaserLayer:
     serializedVersion: 2
     m_Bits: 512

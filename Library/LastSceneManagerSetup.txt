@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CrowdFollowing.unity
+- path: Assets/Scenes/WallHuggerTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

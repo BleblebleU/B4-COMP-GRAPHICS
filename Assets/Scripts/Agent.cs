@@ -31,7 +31,7 @@ public class Agent : MonoBehaviour
     public bool visualizeForces = false;
     public LayerMask deadlockLayerMask;
 
-    public bool WALL_HUGGER = false;
+    public bool wallHugger = false;
     public bool EVADER = false;
     public bool CHASER = false;
 
@@ -146,7 +146,7 @@ public class Agent : MonoBehaviour
         Vector3 wallForce = Vector3.zero;
 
         Vector3 force = Vector3.zero;
-        if (WALL_HUGGER)
+        if (wallHugger)
         {
             wallForce = CalculateWallHuggingForce();
         }

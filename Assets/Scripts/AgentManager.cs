@@ -21,6 +21,7 @@ public class AgentManager : MonoBehaviour
     public bool CREATE_CHASE_SCENE = false;
     public bool CREATE_LEADER_FOLLOW_SCENE = false;
     public bool CREATE_CROWDFOLLOW_SCENE = false;
+    public bool CREATE_WALL_HUGGER_SCENE = false;
 
     public LayerMask chaserLayer;
     public LayerMask evaderLayer;
@@ -75,7 +76,10 @@ public class AgentManager : MonoBehaviour
             {
                 agentScript.cohessive = true;
             }
-
+            else if (CREATE_WALL_HUGGER_SCENE)
+            {
+                agentScript.wallHugger = true;
+            }
             agents.Add(agentScript);
             agentsObjs.Add(agent, agentScript);
         }
