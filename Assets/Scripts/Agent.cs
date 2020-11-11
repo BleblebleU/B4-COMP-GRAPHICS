@@ -32,6 +32,7 @@ public class Agent : MonoBehaviour
     public LayerMask deadlockLayerMask;
 
     public bool wallHugger = false;
+    public bool noGoal = false;
     public bool EVADER = false;
     public bool CHASER = false;
 
@@ -167,7 +168,7 @@ public class Agent : MonoBehaviour
             //agentForce *= -0.25f;
             agentForce *= 0.1f;
         }
-        else
+        else if(!noGoal)
         {
             goalForce = CalculateGoalForce(path[0]);
         }
